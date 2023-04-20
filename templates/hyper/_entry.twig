@@ -1,0 +1,31 @@
+{% for block in entry.hyperBuilder.collect().all() %}
+
+<pre>
+    {{ dump(block.hyper) }}
+</pre>
+
+<ul>
+    <li>{{ block.hyper.linkValue }}</li>
+
+{% switch block.type %}
+{% case 'hyperLink' %}
+    <li>{{ block.hyper.linkText }}</li>
+    <li>{{ block.hyper.customText }}</li>
+    <li><pre>{{ dump(block.hyper.customAttributes) }}</pre></li>
+    <li>{{ block.hyper.dropdown.value }}</li>
+{% case 'hyperUrl' %}
+    <li>{{ block.hyper.linkText }}</li>
+    <li>{{ block.hyper.customText }}</li>
+    <li><pre>{{ dump(block.hyper.customAttributes) }}</pre></li>
+    <li>{{ block.hyper.dropdown.value }}</li>
+    <li>{{ block.hyper.linkTitle }}</li>
+    <li>{{ block.hyper.classes }}</li>
+{% case 'hyperButton' %}
+    <li>{{ block.hyper.customText }}</li>
+    <li>{{ block.hyper.dropdown.value }}</li>
+{% endswitch %}
+
+</ul>
+
+
+{% endfor %}

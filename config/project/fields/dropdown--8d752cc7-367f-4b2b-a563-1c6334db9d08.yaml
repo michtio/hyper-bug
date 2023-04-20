@@ -1,0 +1,34 @@
+columnSuffix: rpkfruur
+contentColumnType: string
+fieldGroup: 31006d4c-2f40-498c-9a4c-69cff4fd4279 # Common
+handle: dropdown
+instructions: null
+name: Dropdown
+searchable: false
+settings:
+  options:
+    -
+      __assoc__:
+        -
+          - label
+          - 'Option A'
+        -
+          - value
+          - optionA
+        -
+          - default
+          - ''
+    -
+      __assoc__:
+        -
+          - label
+          - 'Option B'
+        -
+          - value
+          - optionB
+        -
+          - default
+          - ''
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Dropdown

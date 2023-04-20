@@ -1,0 +1,19 @@
+columnSuffix: wnbyqbaa
+contentColumnType: text
+fieldGroup: 31006d4c-2f40-498c-9a4c-69cff4fd4279 # Common
+handle: customText
+instructions: null
+name: 'Custom Text'
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: false
+  columnType: null
+  initialRows: 4
+  multiline: false
+  placeholder: null
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

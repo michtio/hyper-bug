@@ -1,0 +1,16 @@
+columnSuffix: null
+contentColumnType: string
+fieldGroup: 31006d4c-2f40-498c-9a4c-69cff4fd4279 # Common
+handle: hyperBuilder
+instructions: null
+name: 'Hyper Builder'
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_hyperbuilder}}'
+  maxBlocks: null
+  minBlocks: null
+  propagationKeyFormat: null
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

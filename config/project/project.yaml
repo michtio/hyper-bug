@@ -1,4 +1,4 @@
-dateModified: 1679617195
+dateModified: 1682003749
 email:
   fromEmail: info@putyourlightson.net
   fromName: 'Craft Coding Challenge'
@@ -9,13 +9,386 @@ graphql:
     expiryDate: null
 meta:
   __names__:
-    0b13c242-c4bf-4365-b5d1-fd1fe51676d8: 'Public Schema'
+    0b13c242-c4bf-4365-b5d1-fd1fe51676d8: 'Public Schema' # Public Schema
     0d89c679-f6f5-42ae-8341-4bea917c6af7: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+    08b47100-4228-42f1-a652-97ea62f8ddb8: 'Custom Text' # Custom Text
+    8d752cc7-367f-4b2b-a563-1c6334db9d08: Dropdown # Dropdown
+    9b5a1fd9-dbf5-4d8a-9709-e53cba5e1ab4: 'Hyper Builder' # Hyper Builder
+    61fb4112-49af-4154-a6b1-d5084d70281d: 'Hyper Url' # Hyper Url
+    86b465e9-8352-447c-852d-5dc36e6b2efb: Hyper # Hyper
+    386c9e10-e1ef-4686-abc0-34ad5aeb97ff: Simple # Simple
     0779f354-f5d2-4f82-9a36-28a252f70ce4: 'Public Schema' # Public Schema
+    8234bbc6-d6fc-45c8-9bf5-6dd29f184b39: Hyper # Hyper
+    09866bfd-16dc-4ce3-b911-610a1de5b3d9: Hyper # Hyper
     31006d4c-2f40-498c-9a4c-69cff4fd4279: Common # Common
+    373405c2-ad1b-4a20-8fb2-6730e0a76c13: New # New
     b55012be-3f7f-4150-b59c-5a6623c00743: 'Public Schema' # Public Schema
     c7c2807b-84cc-4e1f-9279-af044bc0b472: 'Public Schema' # Public Schema
+    cf5bdbdc-03b9-4e3e-b1e7-0113505c0c56: Hyper # Hyper
+    cf64e7d6-6ccd-4ef9-9bbd-30d4dc7eaeef: Hyper # Hyper
+    d8a2c3ce-3ca7-4625-97cd-b14f430170f1: 'Contact Form' # Contact Form
+    df8c9482-9bb3-4bd9-9eb5-efddf4796351: 'Hyper Link' # Hyper Link
+    f18f9279-977c-419a-a3d1-55288355ec20: 'Hyper Button' # Hyper Button
     f255ef6d-0c55-4bdc-9ced-f610bbb3bed6: $CRAFT_SITE_NAME # $CRAFT_SITE_NAME
+plugins:
+  aws-s3:
+    edition: standard
+    enabled: true
+    schemaVersion: '2.0'
+  blitz:
+    edition: standard
+    enabled: true
+    licenseKey: GCWGKQTWIV87DIZLMIMIWU8M
+    schemaVersion: 4.4.0
+  blitz-recommendations:
+    edition: standard
+    enabled: true
+    schemaVersion: 2.1.0
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
+  eager-beaver:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  elements-panel:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  embeddedassets:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  formie:
+    edition: standard
+    enabled: true
+    licenseKey: HAT5WH4RPRF4YMOE66XZUG6K
+    schemaVersion: 2.0.10
+  hyper:
+    edition: standard
+    enabled: true
+    licenseKey: IW4TRGGXVTZW6RDUDY93ZNAA
+    schemaVersion: 1.0.0
+  image-optimize:
+    edition: standard
+    enabled: true
+    licenseKey: AIMNSJ755J8WSCO4DES9PRHM
+    schemaVersion: 1.0.0
+  minify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  retour:
+    edition: standard
+    enabled: true
+    licenseKey: X6WA2G5P6HQDM3L3PCM80BSH
+    schemaVersion: 3.0.11
+  seomatic:
+    edition: standard
+    enabled: true
+    licenseKey: 060L8A11PQ7EJ8O9F5C2944N
+    schemaVersion: 3.0.11
+  sherlock:
+    edition: lite
+    enabled: true
+    schemaVersion: 4.1.0
+    settings:
+      apiKey: kqyfnlhbihtiftcyihzszrqddqglwftc
+      blowfishHashCost:
+        __assoc__:
+          -
+            - threshold
+            - 13
+      contentSecurityPolicy:
+        __assoc__:
+          -
+            - canFail
+            - true
+      contentSecurityPolicySettings:
+        __assoc__:
+          -
+            - enabled
+            - false
+          -
+            - enforce
+            - false
+          -
+            - header
+            - true
+          -
+            - directives
+            -
+              -
+                - 1
+                - default-src
+                - '''self'''
+      cooldownDuration:
+        __assoc__:
+          -
+            - threshold
+            - 300
+      cors:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      craftFilePermissions:
+        __assoc__:
+          -
+            - canFail
+            - true
+      craftFolderPermissions:
+        __assoc__:
+          -
+            - canFail
+            - true
+      craftFoldersAboveWebRoot:
+        __assoc__:
+          -
+            - canFail
+            - true
+      criticalCraftUpdates:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      criticalPluginUpdates:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      defaultDirMode:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 509
+      defaultFileMode:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 436
+      defaultTokenDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 86400
+      devMode:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      disabledTests: null
+      elevatedSessionDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 300
+      enableCsrfProtection:
+        __assoc__:
+          -
+            - canFail
+            - true
+      expectCT:
+        __assoc__:
+          -
+            - canFail
+            - true
+      headerProtectionSettings:
+        __assoc__:
+          -
+            - enabled
+            - true
+          -
+            - headers
+            -
+              -
+                - true
+                - Referrer-Policy
+                - no-referrer-when-downgrade
+              -
+                - true
+                - Strict-Transport-Security
+                - max-age=15552000
+              -
+                - true
+                - X-Content-Type-Options
+                - nosniff
+              -
+                - true
+                - X-Frame-Options
+                - SAMEORIGIN
+              -
+                - true
+                - X-Xss-Protection
+                - '1; mode=block'
+      highSecurityLevel: false
+      httpsControlPanel:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      httpsFrontEnd:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      integrationSettings: null
+      invalidLoginWindowDuration:
+        __assoc__:
+          -
+            - threshold
+            - 3600
+      maxInvalidLogins:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 5
+      monitor: false
+      notificationEmailAddresses: info@putyourlightson.net
+      phpComposerVersion:
+        __assoc__:
+          -
+            - canFail
+            - true
+      phpVersion:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - thresholds
+            -
+              __assoc__:
+                -
+                  - '8.0'
+                  - '2023-11-26'
+                -
+                  - '8.1'
+                  - '2024-11-25'
+                -
+                  - '8.2'
+                  - '2025-12-08'
+      preventUserEnumeration:
+        __assoc__:
+          -
+            - canFail
+            - true
+      referrerPolicy:
+        __assoc__:
+          -
+            - canFail
+            - true
+      rememberedUserSessionDuration:
+        __assoc__:
+          -
+            - threshold
+            - 12096004
+      requireEmailVerification:
+        __assoc__:
+          -
+            - canFail
+            - true
+      sanitizeSvgUploads:
+        __assoc__:
+          -
+            - canFail
+            - true
+      sendPoweredByHeader:
+        __assoc__:
+          -
+            - canFail
+            - false
+      strictTransportSecurity:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 15552000
+      testToEmailAddress:
+        __assoc__:
+          -
+            - canFail
+            - true
+      translationDebugOutput:
+        __assoc__:
+          -
+            - canFail
+            - true
+      useSecureCookies:
+        __assoc__:
+          -
+            - canFail
+            - true
+      userSessionDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 3600
+      verificationCodeDuration:
+        __assoc__:
+          -
+            - canFail
+            - true
+          -
+            - threshold
+            - 86400
+      webAliasInSiteBaseUrl:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      webAliasInVolumeBaseUrl:
+        __assoc__:
+          -
+            - forceFail
+            - true
+      xContentTypeOptions:
+        __assoc__:
+          -
+            - canFail
+            - true
+      xFrameOptions:
+        __assoc__:
+          -
+            - canFail
+            - true
+  similar:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  super-table:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0
+  typogrify:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
+  vite:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: pro
   live: true
